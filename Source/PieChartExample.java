@@ -11,9 +11,9 @@ public class PieChart {
 public static void main(String[] args) {
   // create a dataset...
 DefaultPieDataset dataset = new DefaultPieDataset();
-dataset.setValue("Carlin", 43.2);
-dataset.setValue("Chris", 27.9);
-dataset.setValue("John Tucker", 79.5);
+dataset.setValue("Bunnies", 43.2);
+dataset.setValue("Kitties", 27.9);
+dataset.setValue("Mouseys", 79.5);
 // create a chart...
 JFreeChart chart = ChartFactory.createPieChart(
 "Visualisation Example (Pie Chart Version 0.01)",
