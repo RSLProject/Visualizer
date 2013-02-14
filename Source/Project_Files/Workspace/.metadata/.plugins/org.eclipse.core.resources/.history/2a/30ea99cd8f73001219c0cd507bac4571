@@ -1,0 +1,13 @@
+import java.util.*;
+public class vicky {
+double vat, total;
+
+	
+	public static void main(String[] args) {
+	System.out.println("Please enter the price of the haircut/treatment: ");
+	Scanner sc = new Scanner(System.in);
+    float price = sc.hasNextFloat();
+    System.out.println(price);
+	}
+
+}

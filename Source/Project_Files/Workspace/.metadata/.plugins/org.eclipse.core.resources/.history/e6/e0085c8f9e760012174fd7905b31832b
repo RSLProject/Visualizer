@@ -1,0 +1,17 @@
+import javax.swing.*;
+
+
+public class MenuItems {
+	
+	public void menuItems(){
+		
+		JMenuBar menuBar;
+		JMenu menu, submenu;
+		JMenuItem menuItem;
+		JRadioButtonMenuItem rbMenuItem;
+		JCheckBoxMenuItem cbMenuItem;
+		
+	}
+
+
+}

@@ -1,0 +1,20 @@
+!SESSION 2013-02-12 11:08:41.258 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-02-12 11:08:50.025
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2013-02-14 11:37:38.904 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-02-14 11:37:45.033
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
