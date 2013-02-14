@@ -35,7 +35,10 @@ public class ChartTable {
     while (scanner.hasNextLine()) {
       storedNextLine = scanner.nextLine();
       String[] stuffContents = storedNextLine.split(",|\\ ");
-      System.out.println(scanner.next());
+      for (int i = 0; i < stuffContents.length; i++) {
+	model.insertRow(i, stuffContents);
+      // System.out.println(scanner.next());
+      }
     }
    JFrame tableFrame=new JFrame("CSV File Imported");
    JTable table = new JTable(model);

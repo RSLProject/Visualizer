@@ -2,7 +2,7 @@ import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartFrame;
 import org.jfree.chart.JFreeChart;
 import org.jfree.data.general.DefaultPieDataset;
-public class PieChart {
+public class PieChartExample {
 /**
 * The starting point for the demo.
 *

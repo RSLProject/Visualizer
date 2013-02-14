@@ -1,8 +1,5 @@
 import org.jfree.chart.*;
 import org.jfree.data.category.*;
-import org.jfree.data.general.DefaultPieDataset;
-import org.jfree.data.xy.*;
-import org.jfree.data.*;
 import org.jfree.chart.renderer.category.*;
 import org.jfree.chart.plot.*;
 import java.awt.*;
@@ -11,16 +8,18 @@ import org.jfree.chart.axis.NumberAxis;
 import javax.swing.JPanel;
 import javax.swing.*;
 
-public class BarExample1{
+public class BarChart {
 public static void main(String arg[]){
   DefaultCategoryDataset dataset = new DefaultCategoryDataset();
-  dataset.setValue(2, "Marks", "Rahul");
-  dataset.setValue(7, "Marks", "Vinod");
-  dataset.setValue(4, "Marks", "Deepak");
-  dataset.setValue(9, "Marks", "Prashant");
-  dataset.setValue(6, "Marks", "Chandan");
-  JFreeChart chart = ChartFactory.createBarChart
-  ("BarChart using JFreeChart","Student", "Marks", dataset, 
+  dataset.setValue(2, "Header One", "Rahul");
+  dataset.setValue(7, "Header One", "Vinod");
+  dataset.setValue(6, "Header Two", "Rahul");
+  dataset.setValue(4, "Header One", "Deepak");
+  dataset.setValue(9, "Header One", "Prashant");
+  dataset.setValue(6, "Header One", "Chandan");
+	  dataset.setValue(6, "Header Two", "Name");
+	  JFreeChart chart = ChartFactory.createBarChart
+	  ("BarChart using JFreeChart","Student", "Marks", dataset, 
    PlotOrientation.VERTICAL, false,true, false);
   
     CategoryPlot plot = (CategoryPlot) chart.getPlot();
