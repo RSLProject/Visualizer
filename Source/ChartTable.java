@@ -42,6 +42,10 @@ public class ChartTable {
     }
    JFrame tableFrame=new JFrame("CSV File Imported");
    JTable table = new JTable(model);
+   
+   public static getModel {
+			
+   }
    JTableHeader header = table.getTableHeader();
    // Defining size and layout of the object
    tableFrame.setLayout(new BorderLayout());
